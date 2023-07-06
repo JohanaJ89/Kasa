@@ -1,0 +1,22 @@
+.tag {
+  color: #FFFFFF;
+  height: 25px;
+  border-radius: 10px;
+  background-color: #FF6060;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19.96px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 0 10px;
+}
+
+@media screen and (max-width: 375px) {
+  .tag {
+    height: 18px;
+    font-size: 10px;
+  }
+}/*# sourceMappingURL=Tags.css.map */

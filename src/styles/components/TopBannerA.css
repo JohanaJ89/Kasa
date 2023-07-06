@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+.TopBannerA {
+  display: flex;
+  justify-content: center;
+  padding-top: 55px;
+}
+
+.TopBannerA img {
+  position: relative;
+  width: 1240px;
+  height: 223px;
+  border-radius: 25px;
+  object-fit: cover;
+}
+
+.overlay {
+  background-size: cover;
+  border-radius: 25px;
+  opacity: 0.3;
+  background-color: #000000;
+  mix-blend-mode: darken;
+  width: 1240px;
+  height: 223px;
+  position: absolute;
+  top: 190px;
+}/*# sourceMappingURL=TopBannerA.css.map */

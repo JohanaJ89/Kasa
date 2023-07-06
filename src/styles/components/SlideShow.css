@@ -1,0 +1,36 @@
+.slideshow {
+  display: flex;
+  height: 255px;
+  position: relative;
+}
+
+.imgSlide {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.arrowBack, .arrowFront {
+  position: absolute;
+  color: white;
+  font-size: 24px;
+  top: calc(50% - 12px);
+}
+
+.arrowBack {
+  left: 5px;
+}
+
+.arrowFront {
+  right: 5px;
+}
+
+@media only screen and (min-width: 1000px) {
+  .slideshow {
+    height: 415px;
+  }
+  .arrowBack, .arrowFront {
+    font-size: 80px;
+  }
+}/*# sourceMappingURL=SlideShow.css.map */

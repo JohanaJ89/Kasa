@@ -1,0 +1,15 @@
+.rating{
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 75px 25px 0;
+}
+
+.star, .starEmpty{
+    font-size: 15px;
+}
+@media screen and (max-width: 375px) {
+    .star,.starEmpty{
+       width: 18px;
+    }
+}

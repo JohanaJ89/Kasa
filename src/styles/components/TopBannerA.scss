@@ -1,0 +1,50 @@
+
+
+
+.TopBannerA{
+    display: flex;
+    justify-content:center;
+    padding-top: 55px;
+    
+}
+
+.TopBannerA img{
+    position: relative;
+    width: 1240px;
+    height: 223px;
+    border-radius: 25px;
+    object-fit: cover;
+    
+  }
+  
+   .overlayA { 
+    border-radius: 25px;
+    opacity: 0.3;
+    background-color: $bannerbck;
+    mix-blend-mode: darken;
+    width: 1240px;
+    height: 223px;
+    position: absolute;
+    top: 190px;
+
+   }
+
+   @media screen and (max-width: 375px) {
+    .TopBannerA{
+        padding: 0;
+    }
+    
+    .TopBannerA img {
+        position: relative;
+        width: 336px;
+        height:223px;
+       
+      }
+    
+       .overlayA {
+        width: 336px;
+        height: 223px;
+        top: 104px;
+      }
+
+   }

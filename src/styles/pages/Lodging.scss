@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+}
+
+.infos{
+    display: flex;
+    flex-direction: row;
+    align-content: stretch;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+
+.title, .location{
+    font-weight: 500;
+    font-family: $montserrat;
+    color: $txt-color-accent;
+}
+.title{
+    font-size: 36px;
+    line-height: 51.34px;
+}
+.location{
+    font-size: 18px;
+    line-height: 25.67px;
+    
+}
+.tags{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px 0 0 0;
+}
+.host{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    flex-direction: column-reverse;
+}
+
+.list, .paragraph{
+    list-style: none;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-inline-start: 0;
+}
+
+.dropDownContainer {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.dropDownContainer .CollapseText{
+    width: 582px;
+}
+
+@media screen and (max-width: 375px) {
+    .infos{
+        flex-direction: column;
+        margin-left: 20px;
+    }
+    
+    .title{
+        font-size: 18px;
+        line-height: 25.67px;
+    }
+
+    .location{
+        font-size: 14px;
+        line-height: 19.96px;
+        width: 323px;
+    }
+
+
+    .tags{
+        flex-wrap: nowrap;
+    }
+
+
+    .host{
+        flex-direction: row;
+        margin-left: 0;
+    }
+
+
+    .dropDownContainer{
+        flex-direction: column;
+        margin-left: 20px;
+    }
+
+    .dropDownContainer .CollapseText{
+        width: 335px;
+    }
+
+    .titleCollapse{
+        font-weight: 400;
+        font-size: 12px;
+    }
+}

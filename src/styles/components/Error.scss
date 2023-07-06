@@ -1,0 +1,52 @@
+.Big404{
+    color: $txt-color-accent;
+    font-family: $montserrat;   
+    font-weight: 700;
+    font-size: 288px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-block-end: 0;
+    margin-block-start: 0;
+    padding-top: 139px;
+}
+
+
+
+.oups{
+    color: $txt-color-accent;
+    font-family: $montserrat;   
+    font-weight: 500;
+    font-size: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 139px;
+}
+
+a{
+    color: $txt-color-accent;
+    font-family: $montserrat;   
+    font-weight: 500;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 139px 0 139px 0 ;
+}
+
+@media screen and (max-width: 375px) {
+    .Big404{
+        font-size: 96px;
+    }
+
+    .oups{
+        font-size: 18px;
+        line-height: 25.67px;
+        text-align: center;
+    }
+
+    a{
+        font-size: 14px;
+    }
+}

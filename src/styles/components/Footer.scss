@@ -1,0 +1,31 @@
+.footer{
+    background-color: $bannerbck;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: auto;
+}
+
+.logobl{
+    width: 122px;
+    padding-top: 32px;
+    padding-bottom: 15px; 
+}
+
+
+.reserved{
+    color: $txt-color;
+    width: auto;
+    font-family: $montserrat;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 375px){
+    .reserved{
+        width: 133.59px;
+        line-height: 17.11px;
+        font-size: 12px;
+        text-align: center;
+    }
+}
