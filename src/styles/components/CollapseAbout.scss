@@ -1,9 +1,15 @@
-.Collapses{display: flex;
-    width: 1200px;
+
+.collapses-contrainer{
+    display: flex;
+    justify-content: center;
+}
+
+.Collapses{
+    width: 80%;
+    display: flex;
     align-items: stretch;
     flex-direction: column;
     margin: 0;
-    padding-left: 115px;
 }
 
 .CollapseText{
@@ -58,9 +64,20 @@
     display: block;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 1000px) {
+    .Collapses{ width: 600px;
+       
+    }
+    
+
+}
+
+
+
+@media screen and (max-width: 600px) {
    .Collapses{ width: 300px;
-    padding-left: 31px;}
+   
+    }
 
     .h3{
         font-weight: 400;

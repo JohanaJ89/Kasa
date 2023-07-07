@@ -2,13 +2,13 @@
 .TopBanner{
     display: flex;
     justify-content:center;
-    padding-top: 55px;
-  
+    margin: 55px 100px 0 100px;
+    position: relative;
+   
 }
 
 .TopBanner img{
-    position: relative;
-    width: 1240px;
+    width: 100%;
     height: 223px;
     border-radius: 25px;
     object-fit: cover;
@@ -20,10 +20,9 @@
     opacity: 0.3;
     background-color: $bannerbck;
     mix-blend-mode: darken;
-    width: 1240px;
+    width: 100%;
     height: 223px;
     position: absolute;
-    top: 190px;
 
    }
   
@@ -33,21 +32,45 @@
     position: absolute;
     z-index: 150;
     left: calc(50% - 705px/2 + 5.5px);
-    top: calc( 450px/2 + 5.5px);
+    top: calc( 100px/2 + 5.5px);
     font-weight: 500;
     font-size: 48px;
     display: flex;
     text-align: center;
   }
+
+  @media screen and (max-width: 1000px){
+    .TopBanner img{
+      
+      height: 310px;
+    }
   
-  @media screen and (max-width: 375px) {
+    .overlayH{
+      
+      height: 310px;
+    }
+
+    .bannerText{
+      font-size: 36px;
+      line-height: 36px;
+      left: calc(50% - 262px);
+      top: 105px;
+    }
+  }
+  
+
+
+  
+  @media screen and (max-width: 600px) {
     .TopBanner{
         padding: 0;
+        width: 100%;
+        margin: 0;
     }
     
     .TopBanner img {
-        position: relative;
-        width: 335px;
+      
+       width: 335px;
         height:111px;
        
       }
@@ -55,16 +78,16 @@
        .overlayH {
         width: 335px;
         height: 111px;
-        top: 104px;
+       
       }
 
       .bannerText{
         font-size: 24px;
         line-height: 24px;
-        left: calc(50% - 142.5px);
+        left: calc(50% - 145px);
         width: 217px;
         text-align: left;
-        top: 125px;
+        top: 20px;
       }
 
    }

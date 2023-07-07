@@ -1,7 +1,7 @@
 header {
   display: flex;
   justify-content: space-between;
-  padding: 45px 100px 0 100px;
+  margin: 45px 100px 0 100px;
 
   .logo {
     display: flex;
@@ -58,8 +58,8 @@ header {
     }
   }
 
-  @media screen and (max-width: 375px) {
-    padding: 18px 0;
+  @media screen and (max-width: 600px) {
+    margin: 18px 0;
     width: 100%;
    
 .logo{

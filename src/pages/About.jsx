@@ -13,12 +13,15 @@ const About = () => {
         <div>
                 <TopBannerA/>
             </div>
-        <div className='Collapses'>
-            {Data.map((About)=>
-                <CollapseAbout key={About} 
-                title={About.title}
-                children={About.description}/>
-            )}
+
+        <div className="collapses-contrainer">
+            <div className='Collapses'>
+                {Data.map((About)=>
+                    <CollapseAbout key={About} 
+                    title={About.title}
+                    children={About.description}/>
+                )}
+            </div>
         </div>
         </>
     );

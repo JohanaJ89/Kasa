@@ -54,6 +54,9 @@
     
 }
 
+
+
+
 @media screen and (max-width: 375px) {
     .bgCards{
         background-color: $txt-color;
@@ -63,4 +66,7 @@
         width: 335px;
         height: 255px;
     }
+
+    .card{ 
+        padding: 30px 0 30px 0;}
 }
